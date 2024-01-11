@@ -36,7 +36,7 @@ app.get("/tts", async (req, res) => {
       url: "https://text-to-speech-for-28-languages.p.rapidapi.com/",
       headers: {
         "content-type": "application/x-www-form-urlencoded",
-        "X-RapidAPI-Key": "b5c46bd1c8msh1b4f17c6dc918fbp10437ajsn8c9bf897eeb9",
+        "X-RapidAPI-Key": "",
         "X-RapidAPI-Host": "text-to-speech-for-28-languages.p.rapidapi.com",
       },
       data: encodedParams,
